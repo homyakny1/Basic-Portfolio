@@ -1,6 +1,12 @@
 html {
-    background: url(https://www.toptal.com/designers/subtlepatterns/patterns/concrete-texture.png);
+    background: url("https://www.toptal.com/designers/subtlepatterns/patterns/wild_flowers.png");
     width: 100%;
+    align-content: center;
+}
+
+body{
+    width: 960px;
+    margin: auto;
 }
 
 ul {
@@ -33,16 +39,41 @@ li a:hover {
     color: black;
 }
 
+div{
+    display: flex;
+}
+
 section{
-    width: 690px;
-    margin: 0 auto;
+    font-size: 22px;
+    width: 650px;
+    margin-right: auto;
+    border: 5px solid #4e4e4e;
+    flex-wrap: wrap;
+    align-content: center;
+    background: rgba(255, 255, 255, 0.432);
+}
+
+h2{
+    text-align: center;
+}
+
+img {
+    margin: 15px;
+    float: left;
+    height: 200px;
+}
+
+p {
+    margin: 10px;
+}
+
+aside{
+    width: 270px;
     border: 3px solid #4e4e4e;
     display: flex;
+    margin-left: auto;
+    margin: auto;
     flex-wrap: wrap;
     align-content: center;
     background: rgb(255, 245, 245);
-}
-img {
-    float: left;
-    height: 200px;
 }
