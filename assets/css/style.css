@@ -2,6 +2,7 @@ html {
     background: url("https://www.toptal.com/designers/subtlepatterns/patterns/wild_flowers.png");
     width: 100%;
     align-content: center;
+    font-family: 'Armata', sans-serif;
 }
 
 body{
@@ -9,18 +10,21 @@ body{
     margin: auto;
 }
 
+hr{
+}
+
 ul {
     list-style-type: none;
     margin: -10px;
     margin-bottom: 20px;
-    padding: 10px;
+    padding: 9.5px;
     overflow: hidden;
     background-color: #333;
 }
 
 h1 {
     position: absolute;
-    padding: 14px;
+    padding: 13px;
     margin: 1px;
     background: rgb(214, 214, 214);
 }
@@ -43,10 +47,11 @@ div{
     display: flex;
 }
 
+
 section{
     font-size: 22px;
     width: 650px;
-    margin-right: auto;
+    /* margin-right: auto; */
     border: 5px solid #4e4e4e;
     flex-wrap: wrap;
     align-content: center;
@@ -57,23 +62,87 @@ h2{
     text-align: center;
 }
 
+p{
+    font-family: 'Assistant', sans-serif;
+}
+
 img {
     margin: 15px;
     float: left;
-    height: 200px;
+    height: 300px;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
 }
 
 p {
     margin: 10px;
 }
 
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f294;
+    padding: 20px;
+}
+
 aside{
     width: 270px;
+    height: 170px;
     border: 3px solid #4e4e4e;
-    display: flex;
     margin-left: auto;
-    margin: auto;
-    flex-wrap: wrap;
-    align-content: center;
-    background: rgb(255, 245, 245);
+    background: rgba(0, 0, 0, 0.39);
+}
+
+.sideIcon:hover{
+    background: rgba(0, 0, 0, 0.5);
+}
+
+footer{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: -10px;
+    padding: 20px;
+    background-color: #333;
+    color: white;
 }
