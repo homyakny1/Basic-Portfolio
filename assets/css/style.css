@@ -1,39 +1,42 @@
 html {
     background: url("https://www.toptal.com/designers/subtlepatterns/patterns/wild_flowers.png");
-    width: 100%;
-    align-content: center;
-    font-family: 'Armata', sans-serif;
 }
 
 body{
+    font-family: 'Armata', sans-serif;
     width: 960px;
     margin: auto;
+    line-height: 28px;
 }
 
-hr{
+h1{
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    padding: 9px;
+    margin: 10px;
+    background: rgb(214, 214, 214);
 }
 
-ul {
+h2{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.navbar {
     list-style-type: none;
     margin: -10px;
     margin-bottom: 20px;
-    padding: 9.5px;
     overflow: hidden;
     background-color: #333;
 }
 
-h1 {
-    position: absolute;
-    padding: 13px;
-    margin: 1px;
-    background: rgb(214, 214, 214);
-}
-
-li a {
+.navbar li a {
     float: right;
-    display: block;
     color: white;
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
@@ -41,9 +44,11 @@ li a {
 li a:hover {
     background-color: rgb(214, 214, 214);
     color: black;
+    font-weight: bold;
+    font-size: 20px;
 }
 
-div{
+.section{
     display: flex;
 }
 
@@ -51,15 +56,8 @@ div{
 section{
     font-size: 22px;
     width: 650px;
-    /* margin-right: auto; */
-    border: 5px solid #4e4e4e;
-    flex-wrap: wrap;
-    align-content: center;
+    border: 3px solid #4e4e4e;
     background: rgba(255, 255, 255, 0.432);
-}
-
-h2{
-    text-align: center;
 }
 
 p{
@@ -140,9 +138,13 @@ aside{
 
 footer{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 100px;
     margin-bottom: -10px;
-    padding: 20px;
     background-color: #333;
     color: white;
+    position: absolute;
+    left: 0;
+    width: 100%;
 }
+
+
